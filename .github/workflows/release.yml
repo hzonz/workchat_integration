@@ -72,6 +72,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.check.outputs.version }}
+          # 按照你的习惯：v1.0.0 - 标题内容
           name: v${{ steps.check.outputs.version }} - ${{ steps.check.outputs.commit_title }}
           files: |
             ${{ steps.check.outputs.comp_name }}.zip
