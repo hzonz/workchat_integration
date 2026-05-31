@@ -8,10 +8,10 @@
           "corp_id": "企业 ID (CorpID)",
           "secret": "应用密钥 (Secret)",
           "agent_id": "应用 ID (AgentID)",
-          "token": "回调 Token",
-          "aes_key": "EncodingAESKey",
+          "token": "回调令牌 (Token)",
+          "aes_key": "AES编码密钥 (EncodingAESKey)",
           "receive_user": "默认接收人",
-          "external_url": "公网回调 URL",
+          "external_url": "公网回调地址 URL",
           "proxy": "代理地址 (可选)"
         }
       }
